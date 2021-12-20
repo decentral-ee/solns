@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@solana/spl-name-service": "^0.1.3",
+    "native-dns": "^0.7.0"
+  },
+  "name": "solns",
+  "version": "0.1.0",
+  "description": " Solana DNS Service ",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentral-ee/solns.git"
+  },
+  "keywords": [
+    "solana",
+    "dns"
+  ],
+  "author": "Miao ZhiCheng <miao@decentral.ee>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decentral-ee/solns/issues"
+  },
+  "homepage": "https://github.com/decentral-ee/solns#readme"
+}

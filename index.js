@@ -23,6 +23,9 @@ function validateEntries(entriesRecord) {
     } catch (err) {
         return { entriesValid: false };
     }
+    if (entries.constructor.name !== "Array") {
+        return { entriesValid: false };
+    }
     return {
         entriesValid: true,
         entries,

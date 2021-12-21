@@ -23,7 +23,7 @@ function validateEntries(entriesRecord) {
     } catch (err) {
         return { entriesValid: false };
     }
-    if (entries.constructor.name !== "Array") {
+    if (!entries || entries.constructor.name !== "Array") {
         return { entriesValid: false };
     }
     return {
